@@ -1,6 +1,6 @@
 const { Router } = require("express");
 
-const listaUsuarios = require("../../users.json");
+const listaProducts = require("../../products.json");
 
 const router = Router();
 
@@ -9,7 +9,7 @@ router.get(`/`, (req, res) => {
   return res.json({
     ok: true,
     message: `lista de usuarios`,
-    usuarios: listaUsuarios.usuarios,
+    usuarios: listaProducts.products,
   });
 });
 
@@ -27,7 +27,7 @@ router.get(`/:userId`, (req, res) => {
     });
   }
 
-  const usuario = listaUsuarios.usuarios.find((u) => {
+  const usuario = listaProducts.usuarios.find((u) => {
     return u.id === Number(userId);
   });
 
@@ -47,7 +47,7 @@ router.get(`/:userId`, (req, res) => {
 router.post(`/`, (req, res) => {
   const userBody = req.body;
   console.log("🚀 ~ file: index.js:31 ~ router.post ~ userBody", userBody);
-  const lastId = listaUsuarios.usuarios[listaUsuarios.usuarios.length - 1].id;
+  const lastId = listaProducts.usuarios[listaProducts.usuarios.length - 1].id;
   const newUser = { id: lastId + 1, ...userBody };
   res.json({ ok: true, message: `usuario creado`, usuario: newUser });
 });
