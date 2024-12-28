@@ -8,48 +8,48 @@ const router = Router();
 router.get(`/`, (req, res) => {
   return res.json({
     ok: true,
-    message: `lista de usuarios`,
-    usuarios: listaProducts.products,
+    message: `lista de products`,
+    products: listaProducts.products,
   });
 });
 
 // // RUTA CON QUERY PARAMS, y PARAMS
-// /api/users/:userId
-router.get(`/:userId`, (req, res) => {
+// /api/users/:productId
+router.get(`/:productId`, (req, res) => {
   console.log("PARAMS", req.params);
-  const userId = req.params.userId;
+  const productId = req.params.productId;
 
-  if (isNaN(userId)) {
+  if (isNaN(productId)) {
     return res.status(400).json({
       ok: true,
-      message: `no existe el usuario con el id ${userId}`,
+      message: `no existe el product con el id ${productId}`,
       queryParams: req.query,
     });
   }
 
-  const usuario = listaProducts.usuarios.find((u) => {
-    return u.id === Number(userId);
+  const product = listaProducts.products.find((u) => {
+    return u.id === Number(productId);
   });
 
-  if (!usuario) {
+  if (!product) {
     return res.json({
       ok: true,
-      message: `no existe el usuario con el id ${userId}`,
-      usuario,
+      message: `no existe el product con el id ${productId}`,
+      product,
       queryParams: req.query,
     });
   }
 
-  return res.json({ ok: true, message: `usuarios id: ${userId}`, usuario });
+  return res.json({ ok: true, message: `products id: ${productId}`, product });
 });
 
 // /api/users/
 router.post(`/`, (req, res) => {
   const userBody = req.body;
   console.log("🚀 ~ file: index.js:31 ~ router.post ~ userBody", userBody);
-  const lastId = listaProducts.usuarios[listaProducts.usuarios.length - 1].id;
-  const newUser = { id: lastId + 1, ...userBody };
-  res.json({ ok: true, message: `usuario creado`, usuario: newUser });
+  const lastId = listaProducts.products[listaProducts.products.length - 1].id;
+  const newProduct = { id: lastId + 1, ...userBody };
+  res.json({ ok: true, message: `product creado`, product: newProduct });
 });
 
 module.exports = router;
