@@ -7,8 +7,6 @@ const router = Router();
 // /api/users/
 router.get(`/`, (req, res) => {
   return res.json({
-    ok: true,
-    message: `lista de products`,
     products: listaProducts.products,
   });
 });

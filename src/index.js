@@ -2,7 +2,7 @@ const express = require("express");
 const displayRoutes = require("express-routemap");
 const cors = require("cors");
 
-const userRoutes = require("./routes/user.routes");
+const productsRoutes = require("./routes/products.routes");
 const petsRoutes = require("./routes/pets.routes");
 
 const PORT = process.env.PORT || 8080;
@@ -27,8 +27,8 @@ app.get(`/${BASE_PREFIX}/alive`, (req, res) => {
   });
 });
 
-// /api/users --> userRoutes
-app.use(`/${BASE_PREFIX}/users`, userRoutes);
+// /api/users --> productsRoutes
+app.use(`/${BASE_PREFIX}/users`, productsRoutes);
 app.use(`/${BASE_PREFIX}/pets`, petsRoutes);
 
 app.listen(PORT, () => {
