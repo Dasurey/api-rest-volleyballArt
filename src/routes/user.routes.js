@@ -4,7 +4,7 @@ const listaProducts = require("../../products.json");
 
 const router = Router();
 
-// /api/users/
+// /api/products/
 router.get(`/`, (req, res) => {
   return res.json({
     products: listaProducts.products,
@@ -12,7 +12,7 @@ router.get(`/`, (req, res) => {
 });
 
 // // RUTA CON QUERY PARAMS, y PARAMS
-// /api/users/:productId
+// /api/products/:productId
 router.get(`/:productId`, (req, res) => {
   console.log("PARAMS", req.params);
   const productId = req.params.productId;
@@ -41,12 +41,12 @@ router.get(`/:productId`, (req, res) => {
   return res.json({ ok: true, message: `products id: ${productId}`, product });
 });
 
-// /api/users/
+// /api/products/
 router.post(`/`, (req, res) => {
-  const userBody = req.body;
-  console.log("🚀 ~ file: index.js:31 ~ router.post ~ userBody", userBody);
+  const productBody = req.body;
+  console.log("🚀 ~ file: index.js:31 ~ router.post ~ productBody", productBody);
   const lastId = listaProducts.products[listaProducts.products.length - 1].id;
-  const newProduct = { id: lastId + 1, ...userBody };
+  const newProduct = { id: lastId + 1, ...productBody };
   res.json({ ok: true, message: `product creado`, product: newProduct });
 });
 

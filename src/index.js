@@ -27,8 +27,8 @@ app.get(`/${BASE_PREFIX}/alive`, (req, res) => {
   });
 });
 
-// /api/users --> productsRoutes
-app.use(`/${BASE_PREFIX}/users`, productsRoutes);
+// /api/products --> productsRoutes
+app.use(`/${BASE_PREFIX}/products`, productsRoutes);
 app.use(`/${BASE_PREFIX}/pets`, petsRoutes);
 
 app.listen(PORT, () => {
