@@ -5,12 +5,12 @@
             "title": "Zapatilla Asics Metarise Tokyo Men",
             "img": [
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/asics-metarise-tokyo-men-shoes.png",
+                    "src": "img/products/asics-metarise-tokyo-men-shoes.png",
                     "alt": "Zapatilla Asics Metarise Tokyo Men",
                     "carousel": false
                 },
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/on-sale/asics-metarise-tokyo-men-shoes.jpg",
+                    "src": "img/products/on-sale/asics-metarise-tokyo-men-shoes.jpg",
                     "carousel": true
                 }
             ],
@@ -26,12 +26,12 @@
             "title": "Zapatilla Mizuno Women Wave Momentum 3",
             "img": [
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/Mizuno-Women-Adult-Wave-Momentum-3-Volleyball-Shoe.webp",
+                    "src": "img/products/Mizuno-Women-Adult-Wave-Momentum-3-Volleyball-Shoe.webp",
                     "alt": "Zapatilla Mizuno Women Wave Momentum 3",
                     "carousel": false
                 },
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/on-sale/Mizuno-Women-Adult-Wave-Momentum-3-Volleyball-Shoe.jpg",
+                    "src": "img/products/on-sale/Mizuno-Women-Adult-Wave-Momentum-3-Volleyball-Shoe.jpg",
                     "carousel": true
                 }
             ],
@@ -47,7 +47,7 @@
             "title": "Camiseta ISHIKAWA SIR PERUGiA temporada 2024-25",
             "img": [
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/Camiseta-ISHIKAWA-SIR-PERUGiA-temporada-2024-25.webp",
+                    "src": "img/products/Camiseta-ISHIKAWA-SIR-PERUGiA-temporada-2024-25.webp",
                     "alt": "Camiseta ISHIKAWA SIR PERUGiA temporada 2024-25",
                     "carousel": false
                 }
@@ -64,7 +64,7 @@
             "title": "Camiseta Lecoq Oficial Seleccion Argentina de Voley (Negra Con mangas)",
             "img": [
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/Camiseta-Lecoq-Oficial-Seleccion-Argentina-de-Voley-Negra-Con-mangas.webp",
+                    "src": "img/products/Camiseta-Lecoq-Oficial-Seleccion-Argentina-de-Voley-Negra-Con-mangas.webp",
                     "alt": "Camiseta Lecoq Oficial Seleccion Argentina de Voley (Negra Con mangas)",
                     "carousel": false
                 }
@@ -81,7 +81,7 @@
             "title": "Calza corta LECOQ SPORTIF",
             "img": [
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/calza-lecoq-1.webp",
+                    "src": "img/products/calza-lecoq-1.webp",
                     "alt": "Calza corta LECOQ SPORTIF",
                     "carousel": false
                 }
@@ -98,7 +98,7 @@
             "title": "Camiseta LOSER SIR PERUGiA temporada 2024-25",
             "img": [
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/Camiseta-LOSER-SIR-PERUGiA-temporada-2024-25.webp",
+                    "src": "img/products/Camiseta-LOSER-SIR-PERUGiA-temporada-2024-25.webp",
                     "alt": "Camiseta LOSER SIR PERUGiA temporada 2024-25",
                     "carousel": false
                 }
@@ -115,7 +115,7 @@
             "title": "Mangas Thorium Lisa",
             "img": [
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/Mangas-Thorium-Lisa.webp",
+                    "src": "img/products/Mangas-Thorium-Lisa.webp",
                     "alt": "Mangas Thorium Lisa",
                     "carousel": false
                 }
@@ -132,7 +132,7 @@
             "title": "Zapatillas Asics Gel Backhand",
             "img": [
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/Zapatillas-Asics-Gel-Backhand-Black-PureSIlver.webp",
+                    "src": "img/products/Zapatillas-Asics-Gel-Backhand-Black-PureSIlver.webp",
                     "alt": "Zapatillas Asics Gel Backhand",
                     "carousel": false
                 }
@@ -149,7 +149,7 @@
             "title": "Pelota Mikasa V200W Competición",
             "img": [
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/Pelota-Mikasa-V200W-Competicion.jpg",
+                    "src": "img/products/Pelota-Mikasa-V200W-Competicion.jpg",
                     "alt": "Pelota Mikasa V200W Competición",
                     "carousel": false
                 }
@@ -166,7 +166,7 @@
             "title": "Buzo Canguro Sonder Melange Linea Argentina 2024",
             "img": [
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/Sonder_buzoarg2024_1.webp",
+                    "src": "img/products/Sonder_buzoarg2024_1.webp",
                     "alt": "Buzo Canguro Sonder Melange Linea Argentina 2024",
                     "carousel": false
                 }
@@ -183,7 +183,7 @@
             "title": "Campera Sonder impermeable Modelo Tecno",
             "img": [
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/campera-1.webp",
+                    "src": "img/products/campera-1.webp",
                     "alt": "Campera Sonder impermeable Modelo Tecno",
                     "carousel": false
                 }
@@ -200,7 +200,7 @@
             "title": "TheCecco – Buzo Canguro Logo TheCecco",
             "img": [
                 {
-                    "src": "https://api-rest-volleyballart.onrender.com/img/products/buzo-Gris-2.webp",
+                    "src": "img/products/buzo-Gris-2.webp",
                     "alt": "TheCecco – Buzo Canguro Logo TheCecco",
                     "carousel": false
                 }
