@@ -16,7 +16,6 @@ app.use(express.urlencoded({ extended: true })); // sino se agrega no podremos t
 app.use(cors());
 
 app.use("/static", express.static(`${__dirname}/public`));
-app.use("/img", express.static(`${__dirname}/img`)); // Agrega esta línea
 
 app.get(`/`, (req, res) => {
   return res.json({ message: `API DEPLOY SUCCESS` });
