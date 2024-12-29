@@ -1,5 +1,5 @@
 {
-"products": [
+    "products": [
         {
             "id": 1,
             "title": "Zapatilla Asics Metarise Tokyo Men",
@@ -11,6 +11,7 @@
                 },
                 {
                     "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/on-sale/asics-metarise-tokyo-men-shoes.jpg",
+                    "alt": "Zapatilla Asics Metarise Tokyo Men carousel",
                     "carousel": true
                 }
             ],
@@ -32,6 +33,7 @@
                 },
                 {
                     "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/on-sale/Mizuno-Women-Adult-Wave-Momentum-3-Volleyball-Shoe.jpg",
+                    "alt": "Zapatilla Mizuno Women Wave Momentum 3 carousel",
                     "carousel": true
                 }
             ],
@@ -1767,17 +1769,17 @@
         },
         {
             "id": 102,
-            "title": "Musculosa Clásica Sonder Poliester Modelo Tecno",
+            "title": "Musculosa Entallada Lecoq Sportif Training (Negra)",
             "img": [
                 {
-                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/Sonder_Muscu_clasica_tecno_2024_1.webp",
-                    "alt": "Musculosa Clásica Sonder Poliester Modelo Tecno",
+                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/muscu-lecoq-dama3.webp",
+                    "alt": "Musculosa Entallada Lecoq Sportif Training (Negra)",
                     "carousel": false
                 }
             ],
-            "price": 27499,
+            "price": 32999,
             "previous_price": null,
-            "description": "Musculosa clásica de poliéster set estampado tecno Arg.",
+            "description": "La Musculosa Entallada LeCoq Sportif Training es ideal para entrenamientos voley, handball, newcom, running. Es una una prenda de alta calidad, confeccionada con materiales suaves y transpirables y con un ajuste favorecedor.",
             "category": 2,
             "subcategory": 5,
             "outstanding": false
@@ -2142,23 +2144,6 @@
             "description": "Camiseta oficial LECOQ SPORTIF ALBICELESTE de la Selección Argentina de Voley.",
             "category": 2,
             "subcategory": 4,
-            "outstanding": false
-        },
-        {
-            "id": 124,
-            "title": "Musculosa Entallada Lecoq Sportif Training (Negra)",
-            "img": [
-                {
-                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/muscu-lecoq-dama3.webp",
-                    "alt": "Musculosa Entallada Lecoq Sportif Training (Negra)",
-                    "carousel": false
-                }
-            ],
-            "price": 32999,
-            "previous_price": null,
-            "description": "La Musculosa Entallada LeCoq Sportif Training es ideal para entrenamientos voley, handball, newcom, running. Es una una prenda de alta calidad, confeccionada con materiales suaves y transpirables y con un ajuste favorecedor.",
-            "category": 2,
-            "subcategory": 5,
             "outstanding": false
         }
     ]
