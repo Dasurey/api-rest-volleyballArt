@@ -279,22 +279,22 @@
             "previous_price": null,
             "description": "Camiseta térmica DUFOUR manga larga cuello redondo para entrenamiento, en poliester y elastano en color negro y talles S, M, L, XL y XXL. Pack por unidad. Entrenamiento, primera piel. Unisex",
             "category": 2,
-            "subcategory": 4,
+            "subcategory": 5,
             "outstanding": false
         },
         {
             "id": 17,
-            "title": "Camiseta Térmica Dufour Unisex",
+            "title": "Camiseta Lecoq Oficial Selecciona Argentina de Voley (Blanca sin mangas)",
             "img": [
                 {
-                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/Untitled-1-2.webp",
-                    "alt": "Camiseta Térmica Dufour Unisex",
+                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/lecoq-pant-2023-blanco.webp",
+                    "alt": "Camiseta Lecoq Oficial Selecciona Argentina de Voley (Blanca sin mangas)",
                     "carousel": false
                 }
             ],
-            "price": 19999,
+            "price": 49999,
             "previous_price": null,
-            "description": "Camiseta térmica DUFOUR manga larga cuello redondo para entrenamiento, en poliester y elastano en color negro y talles S, M, L, XL y XXL. Pack por unidad. Entrenamiento, primera piel. Unisex",
+            "description": "Camiseta oficial LECOQ SPORTIF ALBICELESTE de la Selección Argentina de Voley.",
             "category": 2,
             "subcategory": 4,
             "outstanding": false
@@ -313,7 +313,7 @@
             "previous_price": null,
             "description": "Remera Entallada de poliéster set estampado tecno Arg.",
             "category": 2,
-            "subcategory": 4,
+            "subcategory": 5,
             "outstanding": false
         },
         {
@@ -428,7 +428,7 @@
             "title": "Zapatillas Asics Gel Backhand (Black/Rose Gold)",
             "img": [
                 {
-                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/zapatillas-de-tenis-asics-gel-backhand-mujer-azul-13001042a206403-1.webp",
+                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/backhand-mujer-rose-gold-1.webp",
                     "alt": "Zapatillas Asics Gel Backhand (Black/Rose Gold)",
                     "carousel": false
                 }
@@ -1786,19 +1786,19 @@
         },
         {
             "id": 103,
-            "title": "Musculosa Entallada Lecoq Sportif Training (VerdeAgua)",
+            "title": "Rodilleras Sonder Voley",
             "img": [
                 {
-                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/muscu-lecoq-dama3.webp",
-                    "alt": "Musculosa Entallada Lecoq Sportif Training (VerdeAgua)",
+                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/sonder-1410.webp",
+                    "alt": "Rodilleras Sonder Voley",
                     "carousel": false
                 }
             ],
-            "price": 32999,
+            "price": 37999,
             "previous_price": null,
-            "description": "La Musculosa Entallada LeCoq Sportif Training es ideal para entrenamientos voley, handball, newcom, running. Es una una prenda de alta calidad, confeccionada con materiales suaves y transpirables y con un ajuste favorecedor.",
-            "category": 2,
-            "subcategory": 5,
+            "description": "Rodilleras Sonder para Voley, Newcom, Futsal, Handball: Uno de los modelos más vendidos del Local de Voley Argentina.",
+            "category": 3,
+            "subcategory": 11,
             "outstanding": false
         },
         {
@@ -2063,11 +2063,11 @@
         },
         {
             "id": 119,
-            "title": "Remera entrenamiento VOLEY ARGENTINA modelo 2023 Negra",
+            "title": "Remera entrenamiento VOLEY ARGENTINA modelo 2023 (Negra)",
             "img": [
                 {
-                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/Screenshot_20240518_125153_CapCut.webp",
-                    "alt": "Remera entrenamiento VOLEY ARGENTINA modelo 2023 Negra",
+                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/entrenamiento-2023-voleyotros.webp",
+                    "alt": "Remera entrenamiento VOLEY ARGENTINA modelo 2023 (Negra)",
                     "carousel": false
                 }
             ],
@@ -2080,11 +2080,11 @@
         },
         {
             "id": 120,
-            "title": "Remera entrenamiento VOLEY ARGENTINA modelo 2023 Azul",
+            "title": "Remera entrenamiento VOLEY ARGENTINA modelo 2023 (Azul)",
             "img": [
                 {
-                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/Screenshot_20240518_125153_CapCut.webp",
-                    "alt": "Remera entrenamiento VOLEY ARGENTINA modelo 2023 Azul",
+                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/entrenamiento-2023-voleyotros.webp",
+                    "alt": "Remera entrenamiento VOLEY ARGENTINA modelo 2023 (Azul)",
                     "carousel": false
                 }
             ],
@@ -2110,40 +2110,6 @@
             "description": "Zapatillas Asics Gel Rebound: Diseñada para jugadoras de voley tiene excelente performance temporada tras temporada. Con un calce excepcional, tracción y amortiguación mejoradas Este modelo es conocido por ser el eterno favorito entre los jugadores principiantes e intermedios. Ante todo, la zapatilla asegura tu comfort y estabilidad en la cancha. Además, es un perfecto ejemplo de gran relación precio calidad.  El antepié de gel asegura pisadas, pivots y frenadas confortables en la cancha.",
             "category": 1,
             "subcategory": 2,
-            "outstanding": false
-        },
-        {
-            "id": 122,
-            "title": "Rodilleras Sonder Voley",
-            "img": [
-                {
-                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/sonder-1410.webp",
-                    "alt": "Rodilleras Sonder Voley",
-                    "carousel": false
-                }
-            ],
-            "price": 37999,
-            "previous_price": null,
-            "description": "Rodilleras Sonder para Voley, Newcom, Futsal, Handball: Uno de los modelos más vendidos del Local de Voley Argentina.",
-            "category": 3,
-            "subcategory": 11,
-            "outstanding": false
-        },
-        {
-            "id": 123,
-            "title": "Camiseta Lecoq Oficial Selecciona Argentina de Voley (Blanca sin mangas)",
-            "img": [
-                {
-                    "src": "https://dasurey.github.io/cdn-api-rest-volleyballArt/img/products/lecoq-pant-2023-blanco.webp",
-                    "alt": "Camiseta Lecoq Oficial Selecciona Argentina de Voley (Blanca sin mangas)",
-                    "carousel": false
-                }
-            ],
-            "price": 49999,
-            "previous_price": null,
-            "description": "Camiseta oficial LECOQ SPORTIF ALBICELESTE de la Selección Argentina de Voley.",
-            "category": 2,
-            "subcategory": 4,
             "outstanding": false
         }
     ]
